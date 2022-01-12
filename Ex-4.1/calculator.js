@@ -1,4 +1,3 @@
-const { number } = require('yargs');
 const yargs = require('yargs');
 
 // Create the following operations: (add, substract, multiply, pow).
@@ -63,4 +62,3 @@ yargs.command({
     },
 });
 yargs.parse();
-// console.log(yargs.argv);
